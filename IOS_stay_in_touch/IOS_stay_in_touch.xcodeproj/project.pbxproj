@@ -14,6 +14,9 @@
 		D88D27891949140A003C9CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88D27881949140A003C9CE4 /* Images.xcassets */; };
 		D88D27951949140A003C9CE4 /* IOS_stay_in_touchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D27941949140A003C9CE4 /* IOS_stay_in_touchTests.m */; };
 		D88D27A019492037003C9CE4 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D279F19492037003C9CE4 /* File.swift */; };
+		D88D27AB194921D1003C9CE4 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D27AA194921D1003C9CE4 /* ShareViewController.m */; };
+		D88D27AD194921D1003C9CE4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88D27AC194921D1003C9CE4 /* MainInterface.storyboard */; };
+		D88D27B0194921D1003C9CE4 /* com.stay.in.touch.IOS-stay-in-touch.share-with-grandma.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D88D27A5194921D1003C9CE4 /* com.stay.in.touch.IOS-stay-in-touch.share-with-grandma.appex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +27,35 @@
 			remoteGlobalIDString = D88D27771949140A003C9CE4;
 			remoteInfo = IOS_stay_in_touch;
 		};
+		D88D27AE194921D1003C9CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88D27701949140A003C9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88D27A4194921D1003C9CE4;
+			remoteInfo = share_with_grandma;
+		};
+		D88D27B1194921D1003C9CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88D27701949140A003C9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88D27A4194921D1003C9CE4;
+			remoteInfo = share_with_grandma;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D88D27B6194921D1003C9CE4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D88D27B0194921D1003C9CE4 /* com.stay.in.touch.IOS-stay-in-touch.share-with-grandma.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D88D27781949140A003C9CE4 /* IOS_stay_in_touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_stay_in_touch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +72,11 @@
 		D88D27941949140A003C9CE4 /* IOS_stay_in_touchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_stay_in_touchTests.m; sourceTree = "<group>"; };
 		D88D279E19492036003C9CE4 /* IOS_stay_in_touch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOS_stay_in_touch-Bridging-Header.h"; sourceTree = "<group>"; };
 		D88D279F19492037003C9CE4 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D88D27A5194921D1003C9CE4 /* com.stay.in.touch.IOS-stay-in-touch.share-with-grandma.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "com.stay.in.touch.IOS-stay-in-touch.share-with-grandma.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88D27A8194921D1003C9CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88D27A9194921D1003C9CE4 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		D88D27AA194921D1003C9CE4 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		D88D27AC194921D1003C9CE4 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D88D27A2194921D1003C9CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -67,6 +110,7 @@
 				D88D279F19492037003C9CE4 /* File.swift */,
 				D88D277A1949140A003C9CE4 /* IOS_stay_in_touch */,
 				D88D27911949140A003C9CE4 /* IOS_stay_in_touchTests */,
+				D88D27A6194921D1003C9CE4 /* share_with_grandma */,
 				D88D27791949140A003C9CE4 /* Products */,
 				D88D279E19492036003C9CE4 /* IOS_stay_in_touch-Bridging-Header.h */,
 			);
@@ -77,6 +121,7 @@
 			children = (
 				D88D27781949140A003C9CE4 /* IOS_stay_in_touch.app */,
 				D88D278E1949140A003C9CE4 /* IOS_stay_in_touchTests.xctest */,
+				D88D27A5194921D1003C9CE4 /* com.stay.in.touch.IOS-stay-in-touch.share-with-grandma.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +166,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D88D27A6194921D1003C9CE4 /* share_with_grandma */ = {
+			isa = PBXGroup;
+			children = (
+				D88D27A9194921D1003C9CE4 /* ShareViewController.h */,
+				D88D27AA194921D1003C9CE4 /* ShareViewController.m */,
+				D88D27AC194921D1003C9CE4 /* MainInterface.storyboard */,
+				D88D27A7194921D1003C9CE4 /* Supporting Files */,
+			);
+			path = share_with_grandma;
+			sourceTree = "<group>";
+		};
+		D88D27A7194921D1003C9CE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88D27A8194921D1003C9CE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,10 +195,13 @@
 				D88D27741949140A003C9CE4 /* Sources */,
 				D88D27751949140A003C9CE4 /* Frameworks */,
 				D88D27761949140A003C9CE4 /* Resources */,
+				D88D27B6194921D1003C9CE4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D88D27AF194921D1003C9CE4 /* PBXTargetDependency */,
+				D88D27B2194921D1003C9CE4 /* PBXTargetDependency */,
 			);
 			name = IOS_stay_in_touch;
 			productName = IOS_stay_in_touch;
@@ -159,6 +226,23 @@
 			productReference = D88D278E1949140A003C9CE4 /* IOS_stay_in_touchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D88D27A4194921D1003C9CE4 /* share_with_grandma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88D27B5194921D1003C9CE4 /* Build configuration list for PBXNativeTarget "share_with_grandma" */;
+			buildPhases = (
+				D88D27A1194921D1003C9CE4 /* Sources */,
+				D88D27A2194921D1003C9CE4 /* Frameworks */,
+				D88D27A3194921D1003C9CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = share_with_grandma;
+			productName = share_with_grandma;
+			productReference = D88D27A5194921D1003C9CE4 /* com.stay.in.touch.IOS-stay-in-touch.share-with-grandma.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,6 +258,9 @@
 					D88D278D1949140A003C9CE4 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = D88D27771949140A003C9CE4;
+					};
+					D88D27A4194921D1003C9CE4 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -192,6 +279,7 @@
 			targets = (
 				D88D27771949140A003C9CE4 /* IOS_stay_in_touch */,
 				D88D278D1949140A003C9CE4 /* IOS_stay_in_touchTests */,
+				D88D27A4194921D1003C9CE4 /* share_with_grandma */,
 			);
 		};
 /* End PBXProject section */
@@ -210,6 +298,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88D27A3194921D1003C9CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88D27AD194921D1003C9CE4 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +331,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D88D27A1194921D1003C9CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88D27AB194921D1003C9CE4 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -242,6 +346,16 @@
 			isa = PBXTargetDependency;
 			target = D88D27771949140A003C9CE4 /* IOS_stay_in_touch */;
 			targetProxy = D88D278F1949140A003C9CE4 /* PBXContainerItemProxy */;
+		};
+		D88D27AF194921D1003C9CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88D27A4194921D1003C9CE4 /* share_with_grandma */;
+			targetProxy = D88D27AE194921D1003C9CE4 /* PBXContainerItemProxy */;
+		};
+		D88D27B2194921D1003C9CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88D27A4194921D1003C9CE4 /* share_with_grandma */;
+			targetProxy = D88D27B1194921D1003C9CE4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -398,6 +512,32 @@
 			};
 			name = Release;
 		};
+		D88D27B3194921D1003C9CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = share_with_grandma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.stay.in.touch.IOS-stay-in-touch.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D88D27B4194921D1003C9CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = share_with_grandma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.stay.in.touch.IOS-stay-in-touch.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -427,6 +567,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D88D27B5194921D1003C9CE4 /* Build configuration list for PBXNativeTarget "share_with_grandma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88D27B3194921D1003C9CE4 /* Debug */,
+				D88D27B4194921D1003C9CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
